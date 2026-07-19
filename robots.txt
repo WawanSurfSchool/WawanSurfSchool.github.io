@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wawansurflombok.com/sitemap.xml
