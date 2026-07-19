@@ -193,7 +193,7 @@ footer a{color:rgba(250,246,238,0.75); text-decoration:underline;}
 /* ABOUT PAGE */
 .about-hero{
   display:grid; grid-template-columns:0.85fr 1.15fr; gap:3rem; align-items:center;
-  padding:4.5rem 0;
+  padding-top:4.5rem; padding-bottom:4.5rem;
 }
 .about-photo{
   background:linear-gradient(135deg, var(--ocean), var(--ocean-deep));
