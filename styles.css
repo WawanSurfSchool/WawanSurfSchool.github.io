@@ -90,10 +90,10 @@ img{max-width:100%; display:block;}
   margin-bottom:1.6rem; text-decoration:none;
 }
 .instructor-badge img{
-  width:46px; height:46px; border-radius:50%; object-fit:cover;
-  border:2px solid var(--coral); display:block;
+  width:92px; height:92px; border-radius:50%; object-fit:cover;
+  border:3px solid var(--coral); display:block;
 }
-.instructor-badge span{font-size:0.9rem; color:rgba(250,246,238,0.85);}
+.instructor-badge span{font-size:1rem; color:rgba(250,246,238,0.85);}
 .instructor-badge span strong{color:var(--foam); font-weight:700;}
 .beach-pill{
   display:inline-flex; gap:0.6rem; align-items:center;
