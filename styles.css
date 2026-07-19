@@ -51,6 +51,13 @@ img{max-width:100%; display:block;}
 .navbar .brand span{color:var(--coral);}
 .nav-right{display:flex; align-items:center; gap:1rem; flex-wrap:wrap;}
 .navtabs{display:flex; gap:0.3rem;}
+.translate-wrap{display:flex; align-items:center;}
+.translate-toggle{
+  background:none; border:1px solid rgba(250,246,238,0.3); color:var(--foam);
+  border-radius:4px; padding:0.35rem 0.55rem; cursor:pointer; font-size:0.95rem;
+  line-height:1;
+}
+.translate-toggle:hover{border-color:var(--foam);}
 .translate-widget{display:flex; align-items:center; min-width:70px;}
 .translate-widget .goog-te-gadget{font-size:0; color:transparent;}
 .translate-widget .goog-te-gadget .goog-te-combo{
