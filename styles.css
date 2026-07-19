@@ -239,15 +239,34 @@ footer a{color:rgba(250,246,238,0.75); text-decoration:underline;}
 }
 .gallery-item.wide{grid-column:span 2;}
 
+/* ADVENTURES PAGE */
+.activities-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:1.5rem;}
+.activity-card{
+  background:var(--foam); border:1px solid rgba(18,60,62,0.1);
+  border-radius:8px; overflow:hidden; display:flex; flex-direction:column;
+}
+.activity-photo{
+  aspect-ratio:4/3;
+  background:linear-gradient(135deg, var(--ocean), var(--ocean-deep));
+  display:flex; align-items:center; justify-content:center;
+}
+.activity-body{padding:1.6rem; display:flex; flex-direction:column; flex:1;}
+.activity-body h3{font-family:'Work Sans',sans-serif; font-weight:700; font-size:1.05rem; margin-bottom:0.5rem; color:var(--ocean);}
+.activity-body p{font-size:0.9rem; color:var(--ink-soft); margin-bottom:1.3rem; flex:1;}
+.activity-body .icon{font-size:1.6rem; margin-bottom:0.7rem; display:block;}
+.activity-card-simple{justify-content:center; background:var(--sand-light); border-style:dashed;}
+
 @media (max-width:800px){
   .hero-grid, .about-hero{grid-template-columns:1fr;}
   .why-grid{grid-template-columns:1fr 1fr;}
   .book-steps{grid-template-columns:1fr;}
   .navbar{flex-direction:column; padding-top:0.5rem;}
+  .navtabs{flex-wrap:wrap; justify-content:center;}
   .navtabs a{padding:0.7rem 0.6rem; font-size:0.75rem;}
   .about-photo{aspect-ratio:16/9;}
   .gallery-grid{grid-template-columns:1fr 1fr;}
   .gallery-item.wide{grid-column:span 2;}
   .footer-break{display:inline;}
+  .activities-grid{grid-template-columns:1fr;}
 }
 :focus-visible{outline:3px solid var(--coral); outline-offset:2px;}
